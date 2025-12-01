@@ -1,0 +1,28 @@
+{
+  "rules": {
+    "staleBranches": true,
+    "messyFiles": true,
+    "forgottenDocs": true,
+    "largeFiles": true,
+    "todoComments": true
+  },
+  "exceptions": {
+    "staleBranches": {
+      "ignore": ["main", "develop"]
+    },
+    "messyFiles": {
+      "ignore": ["node_modules", "dist", ".git"]
+    },
+    "forgottenDocs": {
+      "ignore": []
+    },
+    "largeFiles": {
+      "maxSizeKB": 500,
+      "ignore": ["package-lock.json"]
+    },
+    "todoComments": {
+      "ignore": []
+    }
+  }
+}
+
